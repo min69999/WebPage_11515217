@@ -101,7 +101,7 @@ button { font: inherit; }
 .page-hero { position: relative; overflow: hidden; background: var(--sun-pale); }
 .page-hero::before { position: absolute; top: -175px; right: 7%; width: 370px; aspect-ratio: 1; border: 1px solid rgba(120, 144, 108, .38); border-radius: 50%; box-shadow: 0 0 0 45px rgba(120, 144, 108, .07), 0 0 0 105px rgba(120, 144, 108, .045); content: ""; }
 .page-hero-inner { position: relative; z-index: 1; padding-block: 88px 91px; }
-.page-hero h1 { font-size: clamp(38px, 5vw, 58px); }
+.page-hero h1 { font-size: clamp(38px, 5vw, 62px); }
 .page-hero-inner > p:last-child { max-width: 540px; margin: 17px 0 0; color: var(--muted); }
 .page-hero-stamp { position: absolute; right: max(24px, calc((100% - 1120px) / 2)); bottom: 35px; display: grid; width: 100px; aspect-ratio: 1; place-content: center; border: 1px solid rgba(38, 59, 50, .35); border-radius: 50%; color: var(--sage); font-size: 9px; font-weight: 700; letter-spacing: .1em; line-height: 1.7; text-align: center; transform: rotate(9deg); }
 .story-section { background: var(--cream); }
